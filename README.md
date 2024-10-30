@@ -16,6 +16,6 @@ A pipeline used for scaffolding two haplotypes from hifiasm to chromosome-level 
   python haphic_for2haps.py  -sp sample_prefix -hap1 hap1.gfa -hap2 hap2.gfa -hic1 hic_R1.fastq.gz -hic2 hic_R2.fastq.gz -t threads -nchr num_chromosomes
 
   Outputs:
-    ${sp}_GFA_to_FASTA: Convert GFA to FASTA and generate stats
-    ${sp}_Filtered_BAM: Index and align Hi-C data to the assembly
-    ${sp}_HapHiC_Resul: HapHiC scaffolding results
+    sp_GFA_to_FASTA: Convert GFA to FASTA and generate stats
+    sp_Filtered_BAM: Index and align Hi-C data to the assembly
+    sp_HapHiC_Resul: HapHiC scaffolding results
