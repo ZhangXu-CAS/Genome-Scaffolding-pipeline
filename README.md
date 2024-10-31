@@ -18,6 +18,8 @@ A HapHiC pipeline used for scaffolding two haplotypes from hifiasm to chromosoma
 - **-hic2   HIC2**: Hi-C read 2 FASTQ file
 - **-t   T**: Number of threads for multi-threaded tasks
 - **-nchr   NCHR**: Number of chromosomes for the HapHiC pipeline
+- **-mq** type=int Mapping quality filter (default: 1)
+- **-nm** type=int Edit distance filter (default: 3)
 
 ## Output:
 -  sp_GFA_to_FASTA: Convert GFA to FASTA and generate stats
