@@ -6,6 +6,7 @@ A HapHiC pipeline used for scaffolding two haplotypes from hifiasm to chromosoma
 - **haphic**
 - **gfatools**
 - **seqkit**
+- **samblaster**
 
 ## Options:
 
