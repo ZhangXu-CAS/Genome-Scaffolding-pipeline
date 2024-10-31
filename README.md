@@ -10,13 +10,13 @@ A HapHiC pipeline used for scaffolding two haplotypes from hifiasm to chromosoma
 ## Options:
 
 - **-h, --help**:  Show this help message and exit
-- **-sp SP**:  Sample prefix for output file naming
-- **-hap1 HAP1**: Input GFA file for haplotype 1
-- **-hap2 HAP2**: Input GFA file for haplotype 2
-- **-hic1 HIC1**: Hi-C read 1 FASTQ file
-- **-hic2 HIC2**: Hi-C read 2 FASTQ file
-- **-t T**: Number of threads for multi-threaded tasks
-- **-nchr NCHR**: Number of chromosomes for the HapHiC pipeline
+- **-sp   SP**:  Sample prefix for output file naming
+- **-hap1   HAP1**: Input GFA file for haplotype 1
+- **-hap2   HAP2**: Input GFA file for haplotype 2
+- **-hic1   HIC1**: Hi-C read 1 FASTQ file
+- **-hic2   HIC2**: Hi-C read 2 FASTQ file
+- **-t   T**: Number of threads for multi-threaded tasks
+- **-nchr   NCHR**: Number of chromosomes for the HapHiC pipeline
 
 ## Output:
 -  sp_GFA_to_FASTA: Convert GFA to FASTA and generate stats
