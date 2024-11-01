@@ -88,8 +88,8 @@ check_success "seqkit stat"
 
 # Index and align Hi-C data to the assembly
 echo "Indexing FASTA files for BWA..." | tee -a "$log_file"
-bwa index "${sp}_GFA_to_FASTA/${sp}.hap1.fa" &
-bwa index "${sp}_GFA_to_FASTA/${sp}.hap2.fa" &
+bwa index "${sp}_GFA_to_FASTA/${sp}.hap1.fa" 
+bwa index "${sp}_GFA_to_FASTA/${sp}.hap2.fa" 
 wait
 check_success "bwa index"
 
