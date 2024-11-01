@@ -8,6 +8,12 @@ A HapHiC pipeline used for scaffolding two haplotypes from hifiasm to chromosoma
 - **seqkit**
 - **samblaster**
 
+## Example:
+
+```bash
+python haphic_for2haps.py -sp sample_prefix -hap1 hap1.gfa -hap2 hap2.gfa -hic1 hic_R1.fastq.gz -hic2 hic_R2.fastq.gz -t threads -nchr num_chromosomes
+
+```
 ## Options:
 
 - **-h, --help**:  Show this help message and exit
@@ -27,12 +33,6 @@ A HapHiC pipeline used for scaffolding two haplotypes from hifiasm to chromosoma
 -  sp_HapHiC_Resul: HapHiC scaffolding results
 
   
-## Example:
-
-```bash
-python haphic_for2haps.py -sp sample_prefix -hap1 hap1.gfa -hap2 hap2.gfa -hic1 hic_R1.fastq.gz -hic2 hic_R2.fastq.gz -t threads -nchr num_chromosomes
-
-```
 ## References:
 
 ### **Haphic**
