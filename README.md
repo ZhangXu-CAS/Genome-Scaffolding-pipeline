@@ -16,7 +16,7 @@ python haphic_for2haps.py -sp sample_prefix -hap1 hap1.gfa -hap2 hap2.gfa -hic1 
 ```
 
 ```bash
-python multi_haphic.py -t threads [-i single_id | -l ids_file]
+bash multi_haphic.sh -t [threads] -i single_id / -l ids_file
 
 ```
 
